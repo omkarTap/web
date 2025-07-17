@@ -14,7 +14,7 @@ pipeline {
             steps {
                 echo 'Running Stage 2...'
                 // Simulate work (e.g., build)
-                sh 'echo Hello from Stage 2'
+                sh 'echo Hello from Stage 3'
             }
         }
 
